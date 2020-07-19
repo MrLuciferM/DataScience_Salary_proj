@@ -47,6 +47,9 @@ I had to clean the data so that it was usable for the model. I made the followin
 
 I looked at the distributions of the data and the value counts for the various categorical variables. Below are few highlights from pivot tables.
 
+![Average Salary for different Jobs](https://github.com/MrLuciferM/DataScience_salary_proj/blob/master/pivot_table_jobtitle.jpg) ![Heatmap for correlation between differnt features](https://github.com/MrLuciferM/DataScience_salary_proj/blob/master/heatmap.png)
+![Jobs in different States](https://github.com/MrLuciferM/DataScience_salary_proj/blob/master/barplot_state.png)
+
 ## Model Building
 
 First, I transformed the categorical variables into dummy variables. I also split the data into train and tests sets with a test size of 20%.
